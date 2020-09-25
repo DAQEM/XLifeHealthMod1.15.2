@@ -1,0 +1,26 @@
+modLoader = "javafml" #mandatory
+
+loaderVersion = "[31,)" #mandatory (28 is current forge version)
+
+[[mods]] #mandatory
+
+modId = "xlifehealth" #mandatory
+
+version = "1.4.1" #mandatory
+
+displayName = "X Life Health Mod" #mandatory
+
+logoFile = "xlifemod.png" #optional
+
+credits = "Thanks for this mod goes to Java" #optional
+
+authors = "Love, Cheese and small house plants" #optional
+description = '''
+X Life Health Mod Made By DaqEm.
+'''
+[[dependencies.xlifehealth]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.15.2]"
+ordering = "NONE"
+side = "BOTH"
